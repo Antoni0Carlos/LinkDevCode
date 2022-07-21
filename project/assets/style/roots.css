@@ -50,7 +50,6 @@
 }
 /*==================== Button ====================*/
 .btn__port{
-  font-size: var(--normal-font-size);
   width: 120px;
   height: 45px;
 }
@@ -90,7 +89,7 @@
 }
 
 .home__social__icon{
-  padding-left: 4rem;
   font-size: 24px;
+  left: 2rem;
 }
   }

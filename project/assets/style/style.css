@@ -52,6 +52,7 @@ img {
     width: 100px;
     height: 35px;
     padding: 0.5rem 1rem;
+    font-size: var(--normal-font-size);
     background-color: var(--first-color-white);
     border: 1px solid var(--first-color-dark);
     border-radius: 15px;
@@ -133,6 +134,8 @@ img {
 .home__social__item{
     display: flex;
     align-items: center;
+    justify-content: center;
+    position: relative;
     height: 50px;
     border: 1px solid var(--first-color-white);
     border-radius: 10px;
@@ -145,13 +148,13 @@ img {
 }
 
 .home__social__icon{
-    padding-left: 1rem;
     font-size: 18px;
+    position: absolute;
+    left: 1rem;
 }
 
 .home__link__social{
     color: var(--first-color-white);
-    margin-left: 38%;
     font-weight: var(--font-bold);
 }
 
